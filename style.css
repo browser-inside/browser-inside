@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    align-items: center;
+}
+
+#urlInput {
+    flex-grow: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#goButton {
+    padding: 8px 15px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#goButton:hover {
+    background-color: #4cae4c;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#contentFrame {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+#errorMessage {
+    color: red;
+    padding: 10px;
+    text-align: center;
+    display: none; /* Hidden by default */
+}
